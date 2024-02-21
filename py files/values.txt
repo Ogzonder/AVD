@@ -1,0 +1,54 @@
+FUSELAGE
+SLOT1
+3
+100.0
+50.0
+SLOT2
+Selected: Cylinder
+300.0
+50.0
+0.0
+0.0
+SLOT3
+Selected: Cylindrical Trapezoid
+200.0
+50.0
+20.0
+0.0
+SLOT4
+Selected : 
+0.0
+0.0
+0.0
+0.0
+SLOT5
+Selected : 
+0.0
+0.0
+0.0
+0.0
+WING
+11
+600.0
+50.0
+50.0
+5.0
+0.0
+0.0
+4.0
+2.0
+20.0
+200.0
+VS TAIL
+55
+100.0
+30.0
+30.0
+20.0
+HS TAIL
+55
+200.0
+30.0
+30.0
+20.0
+550.0

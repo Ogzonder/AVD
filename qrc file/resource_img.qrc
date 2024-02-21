@@ -1,0 +1,25 @@
+<RCC>
+  <qresource prefix="slot">
+    <file>square frame.png</file>
+  </qresource>
+  <qresource prefix="nosecone">
+    <file>Conic_Nose_Cone_Render.png</file>
+    <file>Elliptical_Nose_Cone_Render.png</file>
+    <file>LD-Haack_Series_(Von_Kármán)_Nose_Cone_Render.png</file>
+    <file>LV-Haack_Series_Nose_Cone_Render.png</file>
+    <file>Parabolic_(Full)_Nose_Cone_Render.png</file>
+    <file>Parabolic_(Half)_Nose_Cone_Render.png</file>
+    <file>Parabolic_(Three-Quarter)_Nose_Cone_Render.png</file>
+    <file>Power_Series_(Half)_Nose_Cone_Render.png</file>
+    <file>Power_Series_(Three-Quarter)_Nose_Cone_Render.png</file>
+    <file>Tangent_Ogive_Nose_Cone_Render.png</file>
+  </qresource>
+  <qresource prefix="geometric">
+    <file>cone-removebg-preview.png</file>
+    <file>Cylinder-removebg-preview.png</file>
+    <file>trapezoid-removebg-preview.png</file>
+  </qresource>
+  <qresource prefix="lightning">
+    <file>png-clipart-emoji-pop-lightning-sticker-thunder-icon-emoji-angle-cloud-removebg-preview.png</file>
+  </qresource>
+</RCC>

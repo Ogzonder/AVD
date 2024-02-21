@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>312</width>
+    <height>443</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>390</y>
+     <width>181</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="diam_spinbox">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>120</y>
+     <width>201</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="locale">
+    <locale language="English" country="UnitedStates"/>
+   </property>
+   <property name="maximum">
+    <double>9999999.990000000223517</double>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="Length_spinbox">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>90</y>
+     <width>201</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="locale">
+    <locale language="English" country="UnitedStates"/>
+   </property>
+   <property name="maximum">
+    <double>9999999.990000000223517</double>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>160</y>
+     <width>261</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="locale">
+    <locale language="English" country="UnitedStates"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="qrc file/resource_img.qrc">:/nosecone/Elliptical_Nose_Cone_Render.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>10</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>SLOT 1 </string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="select_type_combo_box">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>291</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>181</width>
+     <height>21</height>
+    </size>
+   </property>
+   <property name="locale">
+    <locale language="English" country="UnitedStates"/>
+   </property>
+   <property name="editable">
+    <bool>false</bool>
+   </property>
+   <property name="currentText">
+    <string>Select Nose Cone Type...</string>
+   </property>
+   <property name="frame">
+    <bool>true</bool>
+   </property>
+   <item>
+    <property name="text">
+     <string>Select Nose Cone Type...</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Conic</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tangent ogive</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Elliptical</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Parabolic (Half)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Parabolic (Three Quarter)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Parabolic (Full)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Power Series (Half)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Power Series (Three Quarter)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Haack Series (LD-Haack)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Haack Series (LV-Haack)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Haack Series (Tangent)</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="Length">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Length             :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="BaseDiameter">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Base Diameter :</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="qrc file/resource_img.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>Dialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>Dialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>332</width>
+    <height>362</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>320</y>
+     <width>161</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>50</y>
+     <width>81</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="qrc file/resource_img.qrc">:/geometric/cone-removebg-preview.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>280</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Diameter 2 :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>250</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Diameter 1 :</string>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_2">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>250</y>
+     <width>111</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="locale">
+    <locale language="English" country="UnitedStates"/>
+   </property>
+   <property name="decimals">
+    <number>7</number>
+   </property>
+   <property name="maximum">
+    <double>9999999.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>10</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>SLOT 4</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>130</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Conic</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>50</y>
+     <width>91</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="qrc file/resource_img.qrc">:/geometric/trapezoid-removebg-preview.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>180</y>
+     <width>221</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Selected : </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>130</y>
+     <width>91</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cylinder</string>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>220</y>
+     <width>111</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="locale">
+    <locale language="English" country="UnitedStates"/>
+   </property>
+   <property name="decimals">
+    <number>7</number>
+   </property>
+   <property name="maximum">
+    <double>9999999.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>130</y>
+     <width>121</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cylindrical Trapezoid</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>220</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Length       :</string>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox_3">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>280</y>
+     <width>111</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="locale">
+    <locale language="English" country="UnitedStates"/>
+   </property>
+   <property name="decimals">
+    <number>7</number>
+   </property>
+   <property name="maximum">
+    <double>9999999.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>91</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="qrc file/resource_img.qrc">:/geometric/Cylinder-removebg-preview.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="qrc file/resource_img.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>Dialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>248</x>
+     <y>254</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>Dialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>260</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
